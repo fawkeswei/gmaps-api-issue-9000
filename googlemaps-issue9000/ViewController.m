@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "GMSCameraPosition+Issue9000.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [GMSCameraPosition categoryMethod];
 }
 
 - (void)didReceiveMemoryWarning {
